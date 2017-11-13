@@ -1,6 +1,6 @@
 dev:
-  SECRET_KEY: secret_key_here
+  SECRET_KEY: IIw677RKQP1wjm0iS65m23mTatGpSy0aaVjS1Ei5
   DB_PREFIX: dev
 prod:
-  SECRET_KEY: secret_key_here
+  SECRET_KEY: IIw677RKQP1wjm0iS65m23mTatGpSy0aaVjS1Ei5
   DB_PREFIX: prod

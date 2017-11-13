@@ -1,7 +1,7 @@
 {
-  "name": "serverless-boilerplate",
-  "version": "2.0.0",
-  "description": "basic boilerplate with offline development setup",
+  "name": "isengard",
+  "version": "1.0.0",
+  "description": "basic boilerplate for Lambda serverless backend with DynamoDB, clone from 99xt/serverless-react-boilerplate",
   "main": "index.js",
   "dependencies": {
     "gulp": "3.9.1",
@@ -21,28 +21,38 @@
     "dev": "webpack-dev-server --port 3000 --devtool eval --progress --colors --hot --content-base dist",
     "build": "webpack -p"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mjzone/serverless-boilerplate.git"
-  },
   "keywords": [
     "serverless",
     "boilerplate",
     "aws",
-    "offline"
+    "nodejs",
+    "react",
+    "dynamoDB"
   ],
-  "author": "Manoj Fernando <manojf@99x.lk>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mjzone/serverless-boilerplate/issues"
+  "author": 
+  {
+    "name": "Panagiotis Petsas",
+    "email": "panagiotis.petsas@gmail.com"
   },
-  "homepage": "https://github.com/mjzone/serverless-boilerplate#readme",
+  "license": "MIT",
   "devDependencies": {
     "chai": "^4.1.1",
     "enzyme": "^2.9.1",
     "mocha": "^3.5.0",
     "opn": "4.0.2",
     "react-addons-test-utils": "^15.6.0",
-    "sinon": "^3.2.1"
+    "sinon": "^3.2.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-loader": "^7.1.2",
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-1": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb-base": "^4.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "react-scripts": "1.0.17"
   }
 }

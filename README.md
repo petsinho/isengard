@@ -37,39 +37,6 @@ var dynamodbOfflineOptions = {
 var client = isOffline() ? new AWS.DynamoDB.DocumentClient(dynamodbOfflineOptions) :  new AWS.DynamoDB.DocumentClient();
 ```
 
-###Directory structure
-```
-|──serverless
-|  |──handlers
-|  |  |──todo
-|  |  |  |──lib
-|  |  |  |  |──todo.js
-|  |  |  |  |──helper.js
-|  |  |  |──handler.js
-|  |──database
-|  |  |──dynamodb.js
-|  |──offline
-|  |  |──migrations
-|  |  |  |  |──todo.yml
-|  |  |  |  |──todo-seed.json
-|  |──test
-|  |──config.yml
-|  |──event.json
-|  |──templates.yml
-|  |──serverless.yml
-|  |──package.json
-|──web
-|  |──src
-|  |  |──components
-|  |  |──index.js
-|  |──index.html
-|  |──package.json
-|  |──webpack.config.js
-|──gulpfile.js
-|──package.json
-
-
-```
 ## Installation & Usage
 * Clone this repo.
 * Make sure AWS credentials are setup properly. Otherwise refer [this document](https://github.com/serverless/serverless/blob/master/docs/02-providers/aws/01-setup.md)
@@ -129,18 +96,7 @@ You should **NOT** commit config.yml to your version control system
 Your contributions are much appriciated. 
 
 ## Release Log
-* Release v4.0.0 - Added support for serverless@1.x 
-* Release v3.0.0 - Added environment variables for database table names &  Feature to deploy in multiple APIGateway service level stages.
-* Release v2.2.0 - Added foundation css framework for the react client
-* Release v2.1.1 - Improvements in react web app
-* Release v2.0.1 - Dynamodb local table creation bug fix
-* Release v2.0.0 - Added support for serverless v1.0 and Issues #24 #25
-* Release v1.0.3 - Fixed local dynamobd get packaged for deployment
-* Release v1.0.2 - Added support for serverless@1.0.0-rc.2
-
-## Links
-* [serverless-dynamodb-local plugin](https://github.com/99xt/serverless-dynamodb-local)
-* [serverless-offline plugin](https://github.com/dherault/serverless-offline)
+* Release v1.0.0 - Added support Node 6.10
 
 
 ## License
