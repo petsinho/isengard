@@ -10,7 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.6.1",
-    "bluebird": "^3.4.6"
+    "bluebird": "^3.4.6",
+    "faye": "^1.2.4"
   },
   "devDependencies": {
     "serverless-dynamodb-local": "^0.2.25",
