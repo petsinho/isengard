@@ -4,6 +4,7 @@
   "description": "basic boilerplate for Lambda serverless backend with DynamoDB, clone from 99xt/serverless-react-boilerplate",
   "main": "index.js",
   "dependencies": {
+    "faye": "^1.2.4",
     "gulp": "3.9.1",
     "gulp-exec": "2.1.2",
     "gulp-sequence": "0.4.6",
@@ -29,8 +30,7 @@
     "react",
     "dynamoDB"
   ],
-  "author": 
-  {
+  "author": {
     "name": "Panagiotis Petsas",
     "email": "panagiotis.petsas@gmail.com"
   },
