@@ -3,7 +3,6 @@
 const todo = require('./lib/todo');
 const parser = require('../parser');
 const response = require('../response');
-require('../server');
 
 module.exports.todo = (event, context, cb) => {
   var event = parser.parseEvent(event),
